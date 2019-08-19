@@ -1,0 +1,16 @@
+Program Example2; (* Factorial *)
+   
+Var 1abcdefgh : Integer;
+
+Function F(1abcdefgh : Integer) : Integer;
+  Begin
+    If 1abcdefgh = 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+
+Begin
+  For 1abcdefgh := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+End. (* Factorial *)
